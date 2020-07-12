@@ -1,4 +1,5 @@
 
+
 /*
         Geral
         */
@@ -63,7 +64,7 @@
 
          */
          header{
-            background-image: url("Avenida.jpg");
+            background-image: url("t.jpg");
             color: #ffffff;
             background-position: center;
             background-repeat: no-repeat;
@@ -98,7 +99,7 @@
         #sobre{
             font-size: 14pt;
             flex-direction: column;
-            text-align: left;
+            text-align: left justify ;
             align-items: center;
             padding: 100px;
             background-color: #ffffff;
