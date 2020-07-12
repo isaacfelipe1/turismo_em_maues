@@ -5,14 +5,12 @@
             margin: 0px;
             padding: 0px;
         }
-        h2,h3,p{
+        h1,h2,h3{
             margin: 0;
             
             
         }
-        h1{
-            font-size: 20pt;
-        }
+    
         /*
         Navegacao
         */
@@ -21,7 +19,9 @@
             flex-direction: row;
             align-items: center;
             background-color: #ffffff;
+            position: fixed;
             width: 100%;
+            padding: 0px;
         }
         nav>a{
             text-decoration: none;
@@ -51,7 +51,11 @@
              color: black;
          }
          nav  ul  li:hover{
-             background-color: black;
+            background-color:#F4AC02;
+            color: #ffffff;
+         }
+         nav  ul  li a:hover{
+            color: #ffffff;
          }
          /*
          Cabecalho
@@ -171,4 +175,3 @@
 
 
          }
-
