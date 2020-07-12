@@ -1,17 +1,19 @@
 
-
 /*
         Geral
         */
         body{
-            margin: 0px;
-            padding: 0px;
+            margin: 0;
+            padding: 0;
         }
         h1,h2,h3{
             margin: 0;
             font-size: 20pt;
             
             
+        }
+        h2{
+            padding-top: 16px;
         }
     
         /*
@@ -23,8 +25,8 @@
             align-items: center;
             background-color: #ffffff;
             width: 100%;
-            position:fixed;
             padding: 0px;
+            position: fixed;
         }
         nav>a{
             text-decoration: none;
@@ -65,7 +67,7 @@
 
          */
          header{
-            background-image: url("t.jpg");
+            background-image: url("f.jpg");
             color: #ffffff;
             background-position: center;
             background-repeat: no-repeat;
