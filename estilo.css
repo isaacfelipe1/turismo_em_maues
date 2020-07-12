@@ -68,7 +68,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             flex-direction: column;
-            align-items: center;
+            align-items:left;
             text-align: center;
             padding: 100px;
 
@@ -119,7 +119,7 @@
             text-decoration: none;
         }
         section{
-            transition: all .2s;
+            transition: all .4s;
         }
         /*
          Media Queries
