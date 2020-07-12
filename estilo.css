@@ -5,10 +5,13 @@
             margin: 0px;
             padding: 0px;
         }
-        h1,h2,h3,p{
+        h2,h3,p{
             margin: 0;
-            font-size: 12pt;
             
+            
+        }
+        h1{
+            font-size: 25pt;
         }
         /*
         Navegacao
@@ -18,7 +21,6 @@
             flex-direction: row;
             align-items: center;
             background-color: #ffffff;
-            position: fixed;
             width: 100%;
         }
         nav>a{
@@ -74,14 +76,14 @@
         
         footer{
             background-color: #318686 ;
-            color: #000000;
+            color: #ffffff;
             text-align: center;
             align-items: center;
-            padding: 25px;
+            padding: 30px;
         }
         hr{
-            padding: 8px;
-            background-color:#318686;
+            padding: 1px;
+            background-color:#F4AC02;
         }
         h1,h2{
             color: #F4AC02;
@@ -96,3 +98,77 @@
             background-color: #ffffff;
             color: #000000;
         }
+
+        #contato{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        #contato a{
+            color: #318686;
+            text-decoration: none;
+        }
+        #contato a:hover{
+            color:#F4AC02;
+            text-decoration: none;
+        }
+        section{
+            transition: all .2s;
+        }
+        /*
+         Media Queries
+
+         */
+         @media screen and (min-width: 1200px){
+             /*
+         Navgacao
+
+         */
+         nav{
+             font: row;
+             justify-content: space-around;
+             
+         }
+         nav ul{
+             flex-direction: row;
+             width: 70%;
+         }
+         /*
+         Cabecalho
+
+         */
+         header{
+             height: 600px;
+             height: 60vh;
+             justify-content: center;
+
+
+
+         }
+         h1{
+             font-size: 40pt;
+         }
+         #sobre{
+             height: 250px;
+             height: 30vh;
+             
+         }
+         #contato{
+             flex-direction: row;
+             justify-content: space-around;
+             flex-wrap: wrap;
+             max-width: 500px;
+             margin: 0 auto;
+
+         }
+         #contato h2,
+         #contato p{
+             width: 100%;
+         }
+
+
+
+         }
+
