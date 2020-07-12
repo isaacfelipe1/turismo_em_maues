@@ -1,0 +1,98 @@
+/*
+        Geral
+        */
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        h1,h2,h3,p{
+            margin: 0;
+            font-size: 12pt;
+            
+        }
+        /*
+        Navegacao
+        */
+        nav{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #ffffff;
+            position: fixed;
+            width: 100%;
+        }
+        nav>a{
+            text-decoration: none;
+            color: #318686;
+            font-weight: 700;
+            font-size: 28px;
+            
+            
+        }
+        nav ul{
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+        }
+         nav  ul li{
+             text-align: center;
+             width: 100%;
+         }
+         nav ul li a{
+             display: inline-block;
+             padding: 1px ;
+             width: 100%;
+             text-decoration: none;
+             color: black;
+         }
+         nav  ul  li:hover{
+             background-color: black;
+         }
+         /*
+         Cabecalho
+
+         */
+         header{
+            background-image: url("Sol.jpg");
+            color: #ffffff;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 100px;
+
+            
+
+        }
+
+
+        
+        footer{
+            background-color: #318686 ;
+            color: #000000;
+            text-align: center;
+            align-items: center;
+            padding: 25px;
+        }
+        hr{
+            padding: 8px;
+            background-color:#318686;
+        }
+        h1,h2{
+            color: #F4AC02;
+        }
+
+        #sobre{
+            font-size: 14pt;
+            flex-direction: column;
+            text-align: left;
+            align-items: center;
+            padding: 0px 20px 20px;
+            background-color: #ffffff;
+            color: #000000;
+        }
